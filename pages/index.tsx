@@ -14,7 +14,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
       </Head>
 
-        <img className={styles.background}/>
+      <img className={styles.background}/>
       <main className={styles.main}>
         <h1>Luxury wines</h1>
         <WineLabelButton companyName="pol-couronne" />
