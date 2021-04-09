@@ -5,7 +5,7 @@ import styles from '../assets/Buttons.module.css'
 type CompanyName = "pol-couronne" | "giacomo-grimaldi" | "col-di-lamo";
 
 const title = {
-  "pol-couronne": "Pol couronne",
+  "pol-couronne": "Pol Couronne",
   "giacomo-grimaldi": "Giacomo Grimaldi",
   "col-di-lamo": "Col Di Lamo",
 }
