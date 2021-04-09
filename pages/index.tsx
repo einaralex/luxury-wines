@@ -21,11 +21,8 @@ export default function Home() {
         <WineLabelButton companyName="giacomo-grimaldi"/>
         <WineLabelButton companyName="col-di-lamo"/>
         
+        <a className={styles.email} href="mailto:info@luxurywines.is">info@luxurywines.is</a>
       </main>
-
-      <footer className={styles.footer}>
-      <a href="mailto:info@luxurywines.is">info@luxurywines.is</a>
-      </footer>
     </div>
   );
 }
