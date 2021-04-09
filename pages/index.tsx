@@ -14,13 +14,12 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
       </Head>
 
-      <img className={styles.background}/>
       <main className={styles.main}>
+        <img className={styles.background}/>
         <h1>Luxury wines</h1>
         <WineLabelButton companyName="pol-couronne" />
         <WineLabelButton companyName="giacomo-grimaldi"/>
         <WineLabelButton companyName="col-di-lamo"/>
-        
         <a className={styles.email} href="mailto:info@luxurywines.is">info@luxurywines.is</a>
       </main>
     </div>

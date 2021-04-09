@@ -1,11 +1,19 @@
 .container {
-  min-height: 100%;
+  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.85);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main h1 { 
@@ -22,7 +30,16 @@
   }
 }
 
-.container .background {
+.email {
+  height: 100px;
+  color: white;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -37,22 +54,4 @@
   background-position: center;
   opacity: 0.3;
   filter: contrast(200%) saturate(0);
-}
-
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.email {
-  height: 100px;
-  color: white;
-  font-family: 'Open Sans';
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
