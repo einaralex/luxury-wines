@@ -11,7 +11,7 @@ const title = {
 }
 
 const link = {
-  "pol-couronne": "https://www.champagne-polcouronne.com/",
+  "pol-couronne": "https://www.champagne-polcouronne.com/?lang=en",
   "giacomo-grimaldi": "http://www.giacomogrimaldi.com/",
   "col-di-lamo": "http://coldilamodigiovannaneri.squarespace.com/",
 }
