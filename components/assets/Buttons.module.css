@@ -8,6 +8,7 @@
   font-family: 'Cinzel';
   font-size: 24px;
   align-self: stretch;
+    width: 100%;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
   /* background: url('/annie-spratt-Bf9PT5qVZvM-unsplash.jpg'); */
 }
@@ -42,13 +43,43 @@
 }
 .giacomo-grimaldi {
   background-color: #FFFEEF;
-  border-color: black;
+  border-color: #46455c;
   color: #996633;
 } 
 .col-di-lamo {
   background-color: #FF5500;
-  border-color: #024B12;
+  border-color: #026819ed;
   color: #024B12;
 }
+.monte-rossa {
+  background-color: #f19da0;
+  border-color: #FFFFFF;
+  color: #000000;
+}
+.feudo-maccari {
+  background-color: #f1fcf8;
+  border-color: #46ac78;
+  color: #878654;
+}
+.tenuta-sette-ponti {
+  background-color: #fff4b9;
+  border-color: #f19d5b;
+  color: #3c3930;
+}
 
-
+.wrapper {
+  display: flex;
+  position: relative;
+  min-width: 100%;
+}
+.typepill {
+  background: white;
+  font-family: 'Arizonia';
+  padding: 0 4px;
+  font-size: 16px;
+  border-radius: 8px;
+  position: absolute;
+  border: 1px solid gray;
+  z-index: 1;
+  right: 0;
+}
