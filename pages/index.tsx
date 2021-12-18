@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { WineLabelButton } from '../components/Buttons';
+import { ButtonGroup } from '../components/Buttons';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -59,15 +60,17 @@ export default function Home() {
       <main className={styles.main}>
         <img className={styles.background} />
         <h1>Luxury wines</h1>
-        {Object.entries(wines).map((wine) => (
-          <WineLabelButton
-            id={wine[0]}
-            key={wine[0]}
-            title={wine[1].title}
-            type={wine[1].type}
-            link={wine[1].link}
-          />
-        ))}
+        <ButtonGroup>
+          {Object.entries(wines).map((wine) => (
+            <WineLabelButton
+              id={wine[0]}
+              key={wine[0]}
+              title={wine[1].title}
+              type={wine[1].type}
+              link={wine[1].link}
+            />
+          ))}
+        </ButtonGroup>
         <a className={styles.email} href="mailto:info@luxurywines.is">
           info@luxurywines.is
         </a>

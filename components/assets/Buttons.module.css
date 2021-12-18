@@ -1,7 +1,7 @@
 .label {
-  max-height: 136px;
+  /* max-height: 136px; */
   flex: 1;
-  margin: 16px;
+  /* margin: 16px; */
   font-weight: bolder;
   border-width: 6px;
   border-style: solid;
@@ -38,31 +38,37 @@
 
 .pol-couronne {
   background-color: #292836;
-  border-color: #E1E2E4;
+  border-color: #292836;
   color: white;
 }
 .giacomo-grimaldi {
-  background-color: #FFFEEF;
-  border-color: #46455c;
+  /* background-color: #46455c; */
+  background-color: #FFFEEF;;
+  border-color: #FFFEEF;
   color: #996633;
 } 
 .col-di-lamo {
-  background-color: #FF5500;
+  /* background-color: #FF5500; */
+  background-color: #026819ed;
   border-color: #026819ed;
-  color: #024B12;
+  color: #FF5500;
 }
 .monte-rossa {
-  background-color: #f19da0;
+  /* background-color: #f19da0; */
+  background-color: #FFFFFF;
   border-color: #FFFFFF;
   color: #000000;
 }
 .feudo-maccari {
-  background-color: #f1fcf8;
+  /* background-color: #f1fcf8; */
+  background-color: #46ac78;
   border-color: #46ac78;
-  color: #878654;
+  /* color: #878654; */
+  color: #f1fcf8;
 }
 .tenuta-sette-ponti {
-  background-color: #fff4b9;
+  /* background-color: #fff4b9; */
+  background-color: #f19d5b;
   border-color: #f19d5b;
   color: #3c3930;
 }
@@ -70,16 +76,29 @@
 .wrapper {
   display: flex;
   position: relative;
-  min-width: 100%;
+  min-height: 10vh;
 }
 .typepill {
-  background: white;
-  font-family: 'Arizonia';
-  padding: 0 4px;
-  font-size: 16px;
-  border-radius: 8px;
-  position: absolute;
-  border: 1px solid gray;
-  z-index: 1;
-  right: 0;
+background: white;
+    font-family: 'Arizonia';
+    padding: 0px 5px;
+    font-size: 19px;
+    border-radius: 8px;
+    position: absolute;
+    border: 1px solid lightgray;
+    z-index: 1;
+        height: 20px;
+    right: 5px;
+
+    bottom: 2px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+
+
+}
+
+.buttongroup {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+    justify-content: space-around;
 }
