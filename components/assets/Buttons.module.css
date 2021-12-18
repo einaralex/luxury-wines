@@ -3,7 +3,7 @@
   flex: 1;
   /* margin: 16px; */
   font-weight: bolder;
-  border-width: 6px;
+  /* border-width: 6px; */
   border-style: solid;
   font-family: 'Cinzel';
   font-size: 24px;
@@ -49,8 +49,8 @@
 } 
 .col-di-lamo {
   /* background-color: #FF5500; */
-  background-color: #026819ed;
-  border-color: #026819ed;
+  background-color: #026819b8;
+  border-color: #026819b8;
   color: #FF5500;
 }
 .monte-rossa {
@@ -80,18 +80,26 @@
 }
 .typepill {
 background: white;
-    font-family: 'Arizonia';
-    padding: 0px 5px;
-    font-size: 19px;
-    border-radius: 8px;
-    position: absolute;
-    border: 1px solid lightgray;
-    z-index: 1;
-        height: 20px;
-    right: 5px;
-
-    bottom: 2px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+display: flex;
+/* justify-content: center; */
+font-weight: 600;
+font-family: 'Arial';
+padding: 0 4px;
+align-items: center;
+/* padding-inline: 0px 5px; */
+font-size: 11px;
+border-radius: 8px;
+position: absolute;
+/* border: 1px solid lightgray; */
+z-index: 1;
+text-align: center;
+height: 21px;
+line-height: 1;
+right: 6px;
+top: 6px;
+/* -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 80%); */
+-webkit-box-shadow: 0 0 15px rgba(0 0 0 / 20%);
+box-shadow: 0 0 15px rgba(0 0 0 / 20%);
 
 
 }
