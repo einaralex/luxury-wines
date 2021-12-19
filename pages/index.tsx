@@ -7,31 +7,37 @@ export default function Home() {
   const wines = {
     'pol-couronne': {
       title: 'Pol Couronne',
+      from: 'Reims',
       type: 'Kampavín',
       link: 'https://www.champagne-polcouronne.com/?lang=en',
     },
     'giacomo-grimaldi': {
       title: 'Giacomo Grimaldi',
-      type: 'Rauðvín, Hvítvín',
+      from: 'Piemonte',
+      type: 'Rauðvín & hvítvín',
       link: 'http://www.giacomogrimaldi.com/',
     },
     'col-di-lamo': {
       title: 'Col Di Lamo',
+      from: 'Brunello di Montalicino',
       type: 'Rauðvín',
       link: 'http://coldilamodigiovannaneri.squarespace.com/',
     },
     'monte-rossa': {
       title: 'Monte Rossa',
+      from: 'Lombardia',
       type: 'Franciacorta / freyðivín',
       link: 'http://https://www.monterossa.com/en/',
     },
     'feudo-maccari': {
       title: 'Feudo Maccari',
+      from: 'Sikiley',
       type: 'Hvítvín',
       link: 'https://www.feudomaccari.it/en/',
     },
     'tenuta-sette-ponti': {
       title: 'Tenuta Sette Ponti',
+      from: ' Toscana',
       type: 'Hvítvín',
       link: 'https://www.tenutasetteponti.it/tenutasetteponti/en/vini/',
     },
@@ -66,6 +72,7 @@ export default function Home() {
               id={wine[0]}
               key={wine[0]}
               title={wine[1].title}
+              from={wine[1].from}
               type={wine[1].type}
               link={wine[1].link}
             />

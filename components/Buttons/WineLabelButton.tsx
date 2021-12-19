@@ -10,9 +10,11 @@ type CompanyName =
   | 'feudo-maccari'
   | 'tenuta-sette-ponti';
 
-const WineLabelButton = ({ link, type, title, id }) => (
+const WineLabelButton = ({ link, type, title, from, id }) => (
   <div className={styles.wrapper}>
-    <div className={styles.typepill}>{type}</div>
+    <div className={styles.typepill}>
+      {from} - {type}
+    </div>
     <a href={link} className={styles.anchor}>
       <RootButton className={cx(styles.label, styles[id])}>
         {/* <img className={styles.paperBackground}/> */}
