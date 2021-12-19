@@ -96,8 +96,8 @@ z-index: 1;
 text-align: center;
 height: 14px;
 line-height: 1;
-right: 2px;
-bottom: 2px;
+right: 4px;
+bottom: 4px;
 /* -webkit-box-s12hadow: 0 1px 3px rgb(0 0 0 / 80%); */
 -webkit-box-shadow: 0 0 15px rgba(0 0 0 / 20%);
 box-shadow: 0 0 15px rgba(0 0 0 / 20%);
