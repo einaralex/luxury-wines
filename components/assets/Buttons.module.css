@@ -82,23 +82,19 @@
 .typepill {
 background: white;
 display: flex;
-/* justify-content: center; */
 font-weight: 600;
 font-family: 'Arial';
 padding: 0 4px;
 align-items: center;
-/* padding-inline: 0px 5px; */
 font-size: 11px;
 border-radius: 8px;
 position: absolute;
-/* border: 1px solid lightgray; */
 z-index: 1;
 text-align: center;
 height: 14px;
 line-height: 1;
 right: 4px;
 bottom: 4px;
-/* -webkit-box-s12hadow: 0 1px 3px rgb(0 0 0 / 80%); */
 -webkit-box-shadow: 0 0 15px rgba(0 0 0 / 20%);
 box-shadow: 0 0 15px rgba(0 0 0 / 20%);
 

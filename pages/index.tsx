@@ -27,7 +27,7 @@ export default function Home() {
       title: 'Monte Rossa',
       from: 'Lombardia',
       type: 'Franciacorta / freyðivín',
-      link: 'http://https://www.monterossa.com/en/',
+      link: 'https://www.monterossa.com/en/',
     },
     'feudo-maccari': {
       title: 'Feudo Maccari',
