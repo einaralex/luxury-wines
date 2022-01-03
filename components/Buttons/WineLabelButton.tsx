@@ -1,28 +1,27 @@
-import cx from 'classnames'
-import RootButton from './RootButton'
-import styles from '../assets/Buttons.module.css'
+import cx from 'classnames';
+import RootButton from './RootButton';
+import styles from '../assets/Buttons.module.css';
 
-type CompanyName = "pol-couronne" | "giacomo-grimaldi" | "col-di-lamo";
+type CompanyName =
+  | 'pol-couronne'
+  | 'giacomo-grimaldi'
+  | 'col-di-lamo'
+  | 'monte-rossa'
+  | 'feudo-maccari'
+  | 'tenuta-sette-ponti';
 
-const title = {
-  "pol-couronne": "Pol Couronne",
-  "giacomo-grimaldi": "Giacomo Grimaldi",
-  "col-di-lamo": "Col Di Lamo",
-}
+const WineLabelButton = ({ link, type, title, from, id }) => (
+  <div className={styles.wrapper}>
+    <div className={styles.typepill}>
+      {from} - {type}
+    </div>
+    <a href={link} className={styles.anchor}>
+      <RootButton className={cx(styles.label, styles[id])}>
+        {/* <img className={styles.paperBackground}/> */}
+        {title}
+      </RootButton>
+    </a>
+  </div>
+);
 
-const link = {
-  "pol-couronne": "https://www.champagne-polcouronne.com/?lang=en",
-  "giacomo-grimaldi": "http://www.giacomogrimaldi.com/",
-  "col-di-lamo": "http://coldilamodigiovannaneri.squarespace.com/",
-}
-
-const WineLabelButton = ({ companyName}: { companyName: CompanyName }) => (
-  <a href={link[companyName]} className={styles.anchor}>
-    <RootButton className={cx(styles.label, styles[companyName])}>
-      {/* <img className={styles.paperBackground}/> */}
-      {title[companyName]}
-    </RootButton>
-  </a>
-)
-
-export { WineLabelButton }
+export { WineLabelButton };

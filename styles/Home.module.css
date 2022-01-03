@@ -22,11 +22,18 @@
   font-size: 70px;
   white-space: nowrap;
   color: white;
+
 }
 
 @media (max-width: 340px) {
   .main h1 { 
     font-size: calc(16px + 6 * ((100vw - 20px)/50));
+  }
+}
+@media (max-height: 640px) {
+  .main h1 { 
+    font-size: 46px;
+    /* font-size: calc(16px + 6 * ((100vw - 20px)/50)); */
   }
 }
 

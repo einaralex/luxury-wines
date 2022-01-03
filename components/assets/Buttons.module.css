@@ -1,13 +1,14 @@
 .label {
-  max-height: 136px;
+  /* max-height: 136px; */
   flex: 1;
-  margin: 16px;
+  /* margin: 16px; */
   font-weight: bolder;
-  border-width: 6px;
+  /* border-width: 6px; */
   border-style: solid;
   font-family: 'Cinzel';
   font-size: 24px;
   align-self: stretch;
+    width: 100%;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
   /* background: url('/annie-spratt-Bf9PT5qVZvM-unsplash.jpg'); */
 }
@@ -37,18 +38,72 @@
 
 .pol-couronne {
   background-color: #292836;
-  border-color: #E1E2E4;
+  border-color: #292836;
   color: white;
 }
 .giacomo-grimaldi {
-  background-color: #FFFEEF;
-  border-color: black;
+  /* background-color: #46455c; */
+  background-color: #FFFEEF;;
+  border-color: #FFFEEF;
   color: #996633;
 } 
 .col-di-lamo {
+  /* background-color: #FF5500; */
   background-color: #FF5500;
-  border-color: #024B12;
-  color: #024B12;
+  border-color: #FF5500;
+
+  color: #026819b8;
+}
+.monte-rossa {
+  /* background-color: #f19da0; */
+  background-color: #f19da0;
+  border-color: #f19da0;
+  color: #000000;
+}
+.feudo-maccari {
+  /* background-color: #f1fcf8; */
+  background-color: #46ac78;
+  border-color: #46ac78;
+  /* color: #878654; */
+  color: #f1fcf8;
+}
+.tenuta-sette-ponti {
+  /* background-color: #fff4b9; */
+  background-color: #f19d5b;
+  border-color: #f19d5b;
+  color: #3c3930;
 }
 
+.wrapper {
+  display: flex;
+  position: relative;
+  min-height: 10vh;
+}
+.typepill {
+background: white;
+display: flex;
+font-weight: 600;
+font-family: 'Arial';
+padding: 0 4px;
+align-items: center;
+font-size: 11px;
+border-radius: 8px;
+position: absolute;
+z-index: 1;
+text-align: center;
+height: 14px;
+line-height: 1;
+right: 4px;
+bottom: 4px;
+-webkit-box-shadow: 0 0 15px rgba(0 0 0 / 20%);
+box-shadow: 0 0 15px rgba(0 0 0 / 20%);
 
+
+}
+
+.buttongroup {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
